@@ -1,0 +1,373 @@
+@import url('reset.css');
+font-face {
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: 'Roboto';
+}
+img {
+	max-width: 100%;
+}
+body {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+	color: #8F8F8F;
+}
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+	/*SERVICES*/
+#services {
+	padding: 35px 0;
+}
+#services:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+	.service-col {
+		float: left;
+		width: 30.8%;
+		text-align: center;
+		padding: 15px;
+		line-height: 35px;
+	}
+		.service-col i {
+			padding: 0 0 35px;
+		}
+		.service-col .icon-green {
+			color: #3DAA40;
+		}
+		.service-col .icon-blue {
+			color: #2A7CA2;
+		}
+		.service-col .icon-orange {
+			color: #FA8A27;
+		}
+		.service-col:hover i {
+			color: #F0BF13;;
+		}
+		.service-col h4 {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	/*END SERVICES*/
+	/*Sub Slogan*/
+#sub-slogan {
+	padding: 50px 0;
+	background: #F4F4F4;
+	line-height: 40px;
+	text-align: center;
+}
+	#sub-slogan p {
+		font-size: 24px;
+	}
+	#sub-slogan h2 {
+		font-size: 35px;
+		color: #4abac6;
+		font-weight: bold;
+	}
+	/*End Sub Slogan*/
+	/*Contact Us Today*/
+#contact-us-today {
+	background: #4abac6;
+	padding: 30px 0;
+	font-size: 26px;
+	line-height: 30px;
+}
+.table-cell {
+	display: table-cell;
+	color: #fff;
+	vertical-align: middle;
+}
+	.cell-width {
+		width: 70%;
+	}
+	.cell-width-link {
+		width: 13%;
+	}
+		.table-cell a {
+			color: #fff;
+			display: block;
+			background: #FA8A27;
+			padding: 20px 10px;
+			text-align: center;
+			border-radius: 5px;
+			text-decoration: none;
+			font-size: 20px;
+		}
+		.table-cell a:hover {
+			background: #F0BF13;
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-o-transition: all 1s ease;
+			transition: all 1s ease;
+		}
+	/*End Contact Us Today*/
+	/*TESTIMONIAL*/
+#testimonial {
+	
+}
+	.testimonial-content {
+		line-height: 40px;
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+	.testimonial-content h2 {
+		font-size: 35px;
+		color: #4abac6;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+		.testimonial-content p {
+			font-size: 24px;
+			text-align: center;
+		}
+			.client-image img {
+				width: 8%;
+				margin: 10px auto;
+				border-radius: 50%;
+				border: 5px solid #6E6E6E;
+			}
+			.client-testimonial {
+				font-size: 18px;
+				text-align: center;
+				width: 60%;
+				margin: 0 auto;
+			}
+			.client-testimonial p {
+				line-height: 20px;
+			}
+				.client-testimonial i {
+					padding: 0 2px 0;	
+				}
+			.client-info {
+				font-size: 13px;
+				margin: 10px 0;
+			}
+	/*END TESTIMONIAL*/
+	/*CUSTOMERS*/
+#customers {
+	background: #8be4f2;	
+	padding: 40px 0 10px;
+}
+	#customers p {
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	#clients-logos {
+		width: 70%;
+		margin: 0 auto;
+		padding: 10px 0;
+	}
+	#clients-logos:after {
+		display: block;
+		clear: both;
+		content: "";
+	}
+	.logos-col {
+		float: left;
+		width: 33%;
+		text-align: center;
+	}
+	/*END CUSTOMERS*/
+	/*PRICE LIST*/
+.price-list-row {
+	width: 80%;
+	margin: 60px auto;	
+}
+.price-list-row:after {
+	content: "";
+	display: block;
+	clear: both;	
+}
+	#price-list-header{
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 40px;
+	}
+	.price-list-col {
+		font-size: 14px;
+		float: left;
+		width: 33.23%;
+		margin-right: 1px;
+		background: #F4F4F4;
+		text-align: center;
+		border-radius: 15px;
+		box-shadow: 0 1px 5px #424242;
+	}
+	.price-list-col:after{
+		display: block;
+		clear: both;
+		content: "";
+	}
+		.price-list-col h3 {
+			color: #fff;
+			font-size: 30px;
+			font-weight: bold;
+			padding: 30px;
+			background: #4abac6;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+			text-transform: uppercase;
+		}
+		.price-list-items li {
+			line-height: 40px;
+			background: #fff;
+			border-bottom: 1px solid #eee;
+			margin: 0 10px;
+		}
+		.price-list-items li:hover {
+			color: #fff;
+			background: rgba(0, 0, 0 ,0.5);
+		}
+		
+			.price-list-items li:last-child {
+				border-bottom-left-radius: 15px;
+				border-bottom-right-radius: 15px;;
+			}
+			.price-list-item-yes:before {
+				content: "\f00c";
+				font-family: FontAwesome; 
+				color: #3DBF40;
+				font-size: 18px;
+				padding-right: 10px;
+			}
+			.price-list-item-no:before {
+				content: "\f00d";
+				font-family: FontAwesome; 
+				color: #ED2020;
+				font-size: 18px;
+				padding-right: 10px;
+			}
+			.choose-plan {
+				padding: 10px;
+			}
+			.price p {
+				padding-top: 20px;
+				font-size: 80px;
+				font-weight: bold;
+			}
+			.price p:before {
+				content: "\f155";
+				font-family: FontAwesome;
+				font-size: 35px;
+				position: relative;
+				top: -31px;
+				right: 6px;
+			}
+			.choose-plan button {
+				width: 60%;
+				padding: 15px 0;
+				font-size: 18px;
+				color: #fff;
+				background: #4abac6;
+				border-color: #4abac6;
+				border-radius: 5px;
+				outline: none;
+				-webkit-transition: all 0.8s linear;
+				-moz-transition: all 0.8s linear;
+				-o-transition: all 0.8s linear;
+				transition: all 0.8s linear;
+			}
+			.choose-plan button:hover {
+				background: #028BA0;
+				border-color: #028BA0;
+				cursor: pointer;			
+			}
+		#business-plan {
+			margin-top: -20px;
+			padding: 30px 0;
+			}
+			#business-plan h3 {
+				margin-top: -30px;
+				padding-top: 50px;
+				background: #3AEDA3;
+			}
+			#business-plan button {
+				background: #3AEDA3;
+				border-color: #3AEDA3;
+			}
+			#business-plan button:hover {
+				background: #089c5e;
+				border-color: #089c5e;
+			}
+	/*FAQ*/		
+#faq {
+	background: #F4F4F4;
+	padding: 40px 0;
+}
+	#faq h3 {
+		font-size: 25px;
+		font-weight: bold;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	#faq-content:after {
+		display: block;
+		content: "";
+		clear: both;
+	}
+	.faq-col {
+		width: 47%;
+		float: left;
+		margin-left: 30px;
+	}
+		.faq-col h4 {
+			font-weight: bold;
+			padding: 20px 0;
+		}
+		.faq-col p {
+			line-height: 25px;
+		}
+	/*Web Dev And IT Support*/
+#web-dev, #it-support {
+	padding-top: 35px;
+	line-height: 35px;
+}
+	#web-dev .wrapper > p,  #it-support .wrapper > p{
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.web-dev-row, .support-row {
+		text-align: center;
+		margin: 35px 0;
+	}
+		.web-dev-col, .support-col {
+			float: left;
+			width: 28%;
+			padding: 30px;
+		}
+			.web-dev-col i {
+				margin-bottom: 25px;
+				color: #3DAA40;
+			}
+			.support-col i {
+				margin-bottom: 25px;
+				color: #2A7CA2
+			}
+			.web-dev-col h4, .support-col h4 {
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+	/*End Web Dev And IT Support*/
+	/*Web Dev Slogan*/
+#web-dev-slogan, #it-slogan {
+	color: #8F8F8F;
+	background: #F4F4F4;
+	text-align: center;
+	line-height: 40px;
+	font-size: 24px;
+	padding: 35px 0;
+}
+	/*End Web Dev Slogan*/
