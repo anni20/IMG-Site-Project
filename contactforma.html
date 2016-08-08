@@ -1,0 +1,40 @@
+<html>
+
+<head>
+<title>ContactForm</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="projectcontact.css" type="text/css" media="all"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="contact_form.js"></script>
+<body>
+<h2>Contact with us</h2><br>
+<p>Please complete this form to contact our team.<br>
+<br><p>We will explain you every question you have asked.</p>
+	<form action="contact_form.php" method="POST">
+	<section id="left">
+		<p class="name">
+		<label for="name">Name</label>
+		<input type="text" class="form" name="name" size="40%" placeholder="Your Name"/>
+		</p>
+		<p class="email">
+		<label for="email">Email Adress</label>
+		<input type="text" class="form" name="email" size="40%" placeholder="example@mail.com"/>
+		</p>
+		<textarea class="ta" name="text" rows="5" cols="14" placeholder="Write to contact us"/></textarea></br></br>
+		<select name="type" class="dropdown" size="1">
+			<label for="type">Type</label>
+			<option value="update">Website Update</option>
+			<option value="change">Information Change</option>
+			<option value="addition">Information Addition</option>
+			<option value="new">New Products</option>
+		</select>	
+		<p class="submit">
+		<input class="but" type="submit" value="Send"/>
+		</p>
+	</section>
+	</form>
+	
+<br />
+</body>
+</head>
+</html>
