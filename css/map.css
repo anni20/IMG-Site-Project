@@ -1,0 +1,93 @@
+
+#map{
+	text-align: center;
+	background: #012346;
+	position: relative;
+}
+#map h2{
+	color: white;
+	padding-top: 10px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+#map p{
+	color: white;
+}
+#map-img{
+	height: 700px;
+	width: 80%;
+}
+.office-point{
+	position: absolute;
+}
+.office-point img{
+	width: 15px;
+	height: 15px;
+}
+/* USA */
+#point1{
+	top: 48.5%;
+	left: 24%;
+}
+/* Costa Rica */
+#point2{
+	bottom: 41%;
+	left: 28.5%;
+}
+/* Hungary */
+#point3{
+	bottom: 55%;
+	left: 50.5%;
+}
+/* Kenya */
+#point4{
+	bottom: 34%;
+	left: 55%;
+}
+/* India */
+#point5{
+	bottom: 43%;
+	left: 62.5%;
+}
+/* Australia */
+#point6{
+	bottom: 20%;
+	left: 77.3%;
+}
+.tooltip-inner {
+	background-color: white !important;
+	padding: 5px !important;
+	font-size: 14px;
+	color: #0a78b1 !important;
+}
+.tooltip-arrow {
+  	border-top: 5px solid white !important;
+}
+
+.office-point h2{
+	color: red !important;
+}
+.members{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+.members img{
+	height: 50px;
+	width: 50px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #4abac6;
+}
+.members h4{
+	font-weight: bold;
+	color: #4abac6;
+	margin: 0;
+	margin-top: 5px;
+}
+.members p{
+	color: #b6b8ba !important;
+}
+
+
